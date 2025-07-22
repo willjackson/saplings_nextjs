@@ -1,0 +1,11 @@
+uuid: 71e64b11-0648-4ba9-baf3-08788b955627
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: 'Event content for conferences, meetings, and other events'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

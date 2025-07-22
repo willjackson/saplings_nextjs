@@ -1,0 +1,32 @@
+name: Saplings NextJS
+type: Site
+description: 'Configures Drupal site for NextJS decoupled experience.'
+input:
+  site_url:
+    data_type: string
+    description: 'The base URL of your Next.js site (e.g., ${VIRTUAL_HOST})'
+    constraints:
+      NotBlank: []
+    prompt:
+      method: ask
+      arguments:
+        question: 'What is the base URL of your Next.js site?'
+    default:
+      source: value
+      value: 'http://localhost:3000'
+install:
+  - next
+  - next_jsonapi
+  - decoupled_router
+  - consumers
+  - pathauto
+  - simple_oauth
+  - datetime
+config:
+  strict: false
+  actions:
+    next.next_site.nextjs:
+      simpleConfigUpdate:
+        base_url: '${site_url}'
+        preview_url: '${site_url}/api/draft'
+        revalidate_url: '${site_url}/api/revalidate'

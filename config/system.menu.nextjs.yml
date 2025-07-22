@@ -1,0 +1,8 @@
+uuid: 891a1145-ab79-44f5-8ba8-e21da7b1963f
+langcode: en
+status: true
+dependencies: {  }
+id: nextjs
+label: 'NextJS Navigation'
+description: 'Navigation menu for NextJS frontend'
+locked: false

@@ -1,0 +1,10 @@
+{
+    "name": "drupal/saplings_nextjs",
+    "type": "drupal-recipe",
+    "description": "Configures Drupal site for NextJS decoupled experience.",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/next": "^2"
+    }
+}
