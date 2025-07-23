@@ -1,5 +1,5 @@
 {
-    "name": "drupal/saplings_nextjs",
+    "name": "willjackson/saplings_nextjs",
     "type": "drupal-recipe",
     "description": "Configures Drupal site for NextJS decoupled experience.",
     "license": "GPL-2.0-or-later",
