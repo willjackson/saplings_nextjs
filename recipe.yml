@@ -25,6 +25,13 @@ install:
 config:
   strict: false
   actions:
+    node.type.page:
+      simpleConfigUpdate:
+        third_party_settings:
+          menu_ui:
+            available_menus:
+              - nextjs
+            parent: 'nextjs:'
     next.next_site.nextjs:
       simpleConfigUpdate:
         base_url: '${site_url}'
