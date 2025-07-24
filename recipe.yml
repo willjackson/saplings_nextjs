@@ -37,3 +37,6 @@ config:
         base_url: '${site_url}'
         preview_url: '${site_url}/api/draft'
         revalidate_url: '${site_url}/api/revalidate'
+    system.feature_flags:
+      simpleConfigUpdate:
+        linkset_endpoint: true
